@@ -1,0 +1,54 @@
+.Header {
+    background-color: #212;
+    font-weight: bolder;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#headline {
+    font-size: 30px;
+}
+
+#headline a {
+    text-decoration: none;
+    cursor: default;
+    color: tomato;
+}
+body {
+    background-image: linear-gradient(to right, lightgrey,lightgrey,lightgrey,darkgrey,darkgrey,lightgrey,lightgrey);
+}
+/* All about right Navigation Bar included here */
+.sideNav {
+    float: left;
+    overflow: auto;
+    width: 25%;
+    min-width: 20%;
+    height: 450px;
+    z-index: 100;
+    background: #212;
+    height: cover;
+    margin-right: 10px;
+}
+
+.sideNav a {
+    color: powderblue;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sideNav a:hover {
+    background-color: rgba(170, 0, 0,0.3);
+    color: white;
+}
+
+.queryContent {
+    color: #423;
+    margin-left: 25%;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    padding-top: 5px;
+}

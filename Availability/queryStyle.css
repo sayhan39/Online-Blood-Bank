@@ -1,0 +1,106 @@
+.Header {
+    background-color: #212;
+    font-weight: bolder;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#headline {
+    font-size: 30px;
+    margin: 5px auto 10px auto;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    text-align: center;
+    color: tomato;
+}
+
+#email {
+    border: 2px solid rgba(39, 22, 133,0.5);
+    margin-left: 25px;
+    margin-bottom: 5px;
+    
+}
+
+#password {
+    border: 2px solid rgba(39, 22, 133,0.5);
+}
+
+#search {
+    width: 250px;
+    max-width: 900px;
+    margin: 0px 10px 20px auto;
+    display: block;
+}
+
+#searchButton {
+    margin: 10px 0px 10px 198px;
+}
+
+h1 {
+    font-family: fantasy;
+    font-weight: bold;
+    text-decoration: underline;
+    color: black;
+}
+
+h1 a{
+    color: black;
+}
+
+h1 a:hover {
+    color: blueviolet;
+    color: #cc8033;
+    cursor: default;
+
+}
+
+.Content {
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+.contentPara {
+    font-weight: bold;
+}
+
+body {
+    background-image: linear-gradient(to right, lightgrey,lightgrey,lightgrey,darkgrey,darkgrey,lightgrey,lightgrey);
+}
+/* All about right Navigation Bar included here */
+.sideNav {
+    float: left;
+    overflow: auto;
+    width: 25%;
+    min-width: 20%;
+    height: 450px;
+    z-index: 100;
+    background: #212;
+    height: cover;
+    margin-right: 10px;
+}
+
+.sideNav a {
+    color: powderblue;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sideNav a:hover {
+    background-color: rgba(170, 0, 0,0.3);
+    color: white;
+}
+
+form div {
+    margin-left: 75px;
+}
+
+.queryContent {
+    color: #423;
+    margin-left: 25%;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    padding-top: 5px;
+}

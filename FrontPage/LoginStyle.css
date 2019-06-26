@@ -1,0 +1,102 @@
+.Header {
+    background-color: #212;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px 0px 24px 5px;
+}
+
+.headhome {
+    color: tomato;
+    text-decoration: none;
+}
+
+.headhome:hover {
+    color: rgba(170, 0, 0,0.3);
+    color: white;
+    cursor: default;
+}
+
+#headline {
+    font-size: 30px;
+    margin: 20px auto 20px 5px;
+    text-align: left;
+    color: rgba(255, 0, 0, 0.6);;
+}
+
+#email {
+    border: 2px solid rgba(39, 22, 133,0.5);
+    margin-left: 25px;
+    margin-bottom: 5px;
+    
+}
+
+#password {
+    border: 2px solid rgba(39, 22, 133,0.5);
+}
+
+.Content {
+    overflow: auto;
+    overflow-y: scroll;
+}
+
+.contentPara {
+    font-weight: bold;
+}
+
+body {
+    background-image: linear-gradient(to right, lightgrey,lightgrey,lightgrey,darkgrey,darkgrey,lightgrey,lightgrey);
+}
+/* All about right Navigation Bar included here */
+.topNav {
+    overflow: hidden;
+    background-color: #212;
+    float: right;
+    /*float: right;
+    width: 25%;
+    min-width: 20%;
+    z-index: 100;
+    background: #212;
+    height: cover;
+    margin-right: 10px;*/
+}
+
+.topNav a {
+    display: inline-block;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+
+.topNav a:hover {
+    background-color: rgba(170, 0, 0,0.3);
+    color: white;
+}
+
+form div {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.regin {
+    height: 30px;
+    width: 300px;
+}
+
+.content {
+  margin: 40px auto 10px auto;
+  padding: 20px 0px 20px 5px;
+  width: 400px;
+  border-radius: 8px;
+  height: 300px;
+  border: 2px solid yellow;
+}
+
+
+.submit {
+    float: right;
+    margin-right: 20px;
+    margin-top: 70px;
+    width: 60px;
+    height: 20px;
+}

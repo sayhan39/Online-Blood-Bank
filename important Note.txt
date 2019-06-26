@@ -1,0 +1,9 @@
+Q: How to send auto email?
+A: Type on your web browser -> "file:///D:/Sayeed/WebDevelop/from%20web%20to%20offline/HTML/developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks.html".
+	[in 'Specifying details' section]
+
+
+Q: Footer er content kothay pabo?
+A: 1.er jonno FrontPage/Register.php te last er file operation er jonno je PHP code
+	ache oita lagano jete pare.
+   2.R nijer nam r habijabi aro onek kichu lagano jete pare.
