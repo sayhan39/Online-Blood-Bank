@@ -149,8 +149,16 @@
 		</select><br><br>
 		<span class="regtext">Address:</span><span class="error">* <?php echo " ", $addressErr?></span><br>
 		<textarea class="regin" name="address" rows="8" cols="30"></textarea><br><br>
-		<span class="regtext">City:</span><span class="error">* <?php echo " ", $cityErr?></span><br>
-			<input class="regin" type="text" name="city"><br><br>
+		<span class="regtext">City:</span><select class="regin" name="city">
+			<option value="Dhaka">Dhaka</option>
+			<option value="Chottogram">Chottogram</option>
+			<option value="Barishal">Barishal</option>
+			<option value="Khulna">Khulna</option>
+			<option value="Maymansingh">Maymansingh</option>
+			<option value="Rajshahi">Rajshahi</option>
+			<option value="Rangpur">Rangpur</option>
+			<option value="Sylhet">Sylhet</option>
+		</select><br><br>
 		<span class="regtext">Mobile:</span><span class="error">* <?php echo " ", $mobileErr?></span><br>
 			<input class="regin" type="text" name="mobile"><br><br>
 		<span class="regtext">Comment:</span><br>
