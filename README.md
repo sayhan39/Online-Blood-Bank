@@ -25,7 +25,7 @@ The system offers core functionality expected of a basic data management applica
 The project is developed using the following core web technologies:
 
 * **Backend:** **PHP** (Primary server-side scripting language).
-* **Database:** Likely **MySQL** or **MariaDB** (Required for the CRUD functionality).
+* **Database:** Likely **MySQL** (Required for the CRUD functionality).
 * **Frontend:** **HTML5** and **CSS** for structure and styling.
 
 ***
